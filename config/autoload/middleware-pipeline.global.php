@@ -45,6 +45,7 @@ return [
         ],
 
         'routing' => [
+            'path' => '/sub',
             'middleware' => [
                 ApplicationFactory::ROUTING_MIDDLEWARE,
                 Helper\UrlHelperMiddleware::class,
